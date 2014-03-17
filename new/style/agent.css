@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+h3,p{
+	margin:0;
+	padding:0;
+}
+
+#main{
+	height:px;
+	margin-bottom:20px;
+	
+}
+
+#main #about{
+	
+	height:800px;
+}

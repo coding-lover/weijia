@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+
+
+#main{
+	width:100%;
+	
+}
+#main #about{
+	width: 1000px;
+	border-radius: 5px;
+	margin: 20px auto;
+	border: solid 3px #DFDFDF;
+	box-shadow: 5px 5px 5px #DFDFDF;
+	font-family: '微软雅黑';
+}
+
+#about #about_top{
+	height: 60px;
+	width: 100%;
+	background: #F0F0F0;
+	border-bottom: 1px solid #E0E0E0;
+}
+#about #about_top span{
+	display: block;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: left;
+	padding-left: 70px;
+	color: #3399FF;
+	width:1000px;
+	height:60px;
+	background:url(../images/ny_title.png) 26px no-repeat;
+}
+
+/* about_left begin */
+
+#about #about_left{
+	float: left;
+	width: 140px;
+	height: 500px;
+
+	
+}
+
+#about #about_left ul{
+	
+	margin: 0px;
+	padding-left: 0px;
+	margin-top: 26px;
+	display: block;
+
+
+}
+
+#about #about_left ul li{
+	height: 30px;
+	text-align: center;
+	width: 140px;
+	line-height: 30px;
+	
+	border-bottom: solid 1px #dfdfdf;
+}
+#about #about_left ul li a{
+	color: #2076B9;
+	text-decoration: none;	
+	TEXT-ALIGN: center;
+	outline: none;
+}
+
+
+/* about_left end */
+
+#about #about_right{
+	float: left;
+	width: 837px;
+	padding: 0 10px;
+	border-left: solid #ccc 1px;
+	padding-top: 20px;
+}
+
+
+/* jiajie begin */
+
+
+
+
+
+
+#about #jiajie h2{
+	margin-bottom: 2px;
+	font-family: '微软雅黑';
+	padding-left: 30px;
+	font-size: 26px;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+#about #jiajie h2 img{
+	margin-bottom: -5px;
+	width: 50px;
+}
+
+#about #jiajie p{
+	line-height: 200%;
+	text-indent: 30px;
+	font-family: '宋体';
+	font-size: 15px;
+	color: #7b7f82;
+}
+
+/* jiajie end */
+
+#about #wenhue{
+
+}
+#about #wenhue h2{
+	margin-bottom: 2px;
+	font-family: '微软雅黑';
+	padding-left: 30px;
+	font-size: 26px;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+#about #wenhue h2 img{
+	margin-bottom: -5px;
+	width: 50px;
+}
+#about #wenhue h3{
+	padding-left:30px;
+}
+#about #wenhue p{
+	line-height: 200%;
+	text-indent: 30px;
+	font-family: '宋体';
+	font-size: 15px;
+	color: #7b7f82;
+	padding-left: 30px;
+}

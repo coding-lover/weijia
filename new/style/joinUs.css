@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+#main{
+	width:100%;
+	
+}
+#main #about{
+	width: 1000px;
+	border-radius: 5px;
+	margin: 20px auto;
+	border: solid 3px #DFDFDF;
+	box-shadow: 5px 5px 5px #DFDFDF;
+	font-family: '微软雅黑';
+}
+
+#about #about_top{
+	height: 60px;
+	width: 100%;
+	background: #F0F0F0;
+	border-bottom: 1px solid #E0E0E0;
+}
+#about #about_top span{
+	display: block;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: left;
+	padding-left: 70px;
+	color: #3399FF;
+	width:1000px;
+	height:60px;
+	background:url(../images/ny_title.png) 26px no-repeat;
+}
+
+
+#about #about_center{
+	
+	width: 960px;
+	padding: 0 10px;
+
+	padding-top: 20px;
+	padding-left:20px;
+}
+
+
+#about #joinUs h2{
+	margin-bottom: 2px;
+	font-family: '微软雅黑';
+	padding-left: 30px;
+	font-size: 26px;
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+#about #joinUs h2 img{
+	margin-bottom: -5px;
+	width: 50px;
+}
+
+#about #joinUs p{
+	line-height: 200%;
+	text-indent: 20px;
+	font-family: '宋体';
+	font-size: 15px;
+	color: #7b7f82;
+	
+}
+
+#about #joinUs h3{
+}
+
+#about #joinUs .warn{
+	font-weight:bold;
+	color:red;
+	font-family: '微软雅黑';
+	font-size:17px;
+}
