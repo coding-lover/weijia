@@ -1,2 +1,2 @@
 <?php
-echo '<strong>Welcome to SAE!</strong>';
+header("Location:./new/index.html");
